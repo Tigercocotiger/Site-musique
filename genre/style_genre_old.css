@@ -1,0 +1,126 @@
+/* 
+bleu #7AA4B4 
+orange orangered
+rose magenta
+cloud #009BCE
+old #339001
+pop #C401C9
+trap #AB0000
+*/
+
+html{
+    font-family: Arial;
+    background-color: black;
+    background-attachment: fixed;
+    background-image: url('genre.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover
+}
+
+a{
+    text-decoration: none
+}
+
+header{
+    margin-bottom: 10px
+}
+
+header h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 20% 0 20%;
+    border: 1rem solid #7AA4B4;
+    padding: 10px
+}
+
+header a{
+    color: #7AA4B4
+
+}
+
+section{
+    text-align: center;
+    color: white
+}
+
+section ul{
+    display: inline-block
+}
+
+section a{
+    color: white;
+    margin: 20px
+}
+
+article{
+    height: 46px
+}
+
+ul{
+    list-style-type: none;
+    background-color: #333333;
+    padding-inline-start: 0px
+}
+
+li{
+    float: left
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+    text-decoration: none
+}
+
+p{
+    background-color: rgba(150, 150, 150, 0.7);
+    border-radius: 12px;
+    color: white;
+    font-size: 2.5vh;
+    overflow: inherit;
+    margin: 30px 5% 0 5%;
+    text-align: center;
+    padding: 30px
+}
+
+span{
+    color: crimson;
+    font-family: monospace
+}
+
+.genre{
+    background-color: #7AA4B4
+}
+
+.humeur:hover:not(.genre){
+    background-color: orangered
+}
+
+.ambiance:hover:not(.genre){
+    background-color: magenta
+}
+
+
+.cloud:hover:not(.old){
+    background-color: #009BCE
+}
+
+.old{
+    background-color: #339001
+}
+
+.pop:hover:not(.old){
+    background-color: #C401C9
+}
+
+.trap:hover:not(.old){
+    background-color: #AB0000
+}
+
+.playlist{
+	margin: 20px
+}

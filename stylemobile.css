@@ -1,0 +1,182 @@
+html {
+    background-color: black;
+    background-image: url(fond.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    -webkit-animation: anim 15s infinite;
+    animation: anim 15s infinite;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5vh;
+    border: 10px solid;
+}
+@-webkit-keyframes anim {
+  from, to { color: #ff059b; }
+    10%      { color: #fe0101; }
+    20%      { color: #ff9d0a; }
+    30%      { color: #cdff05; }
+    40%      { color: #33ff00; }
+    50%      { color: #00ff66; }
+    60%      { color: #00ffff; }
+    70%      { color: #0066ff; }
+    80%      { color: #3300ff; }
+    90%      { color: #cc00ff; }
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    padding: 5px;
+    font-weight: normal;
+    padding: 2px;
+    margin:0;
+    
+}
+article h1 {
+    border-radius: 12px;
+    text-decoration: underline
+}
+
+.noflex article {
+    background-color: rgba(50, 50, 50, 0.7);
+    margin: auto;
+    border-radius: 14px;
+    color: white;
+    font-size: 2vh;
+    overflow:inherit;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.plein{
+    
+    text-align: center;
+    }
+
+.plein h1 {
+    padding: 5px;
+    color: white
+}
+
+.jaune {
+    border: 1px solid #ffff00
+}
+.jaune h1 {
+    background-color: #ffff00;
+    color: black
+}
+
+.jaune span{
+    font-family: fantasy;
+    color: crimson
+}
+
+
+.flex article {
+    background-color: rgba(50, 50, 50, 0.7);
+    margin: auto;
+    border-radius: 12px;
+    color: white;
+    max-height: 50vh;
+    font-size: 2vh;
+    overflow:inherit;
+    margin-bottom: 70px;
+    margin-top: 0
+}
+
+.demi {
+    text-align: center;
+}
+.demi h1 {
+    padding: 5px;
+    color: white
+}
+
+.bleu {
+    border: 1px solid #7AA4B4
+}
+.bleu h1 {
+    background-color: #7AA4B4
+}
+
+
+.orange {
+    border: 1px solid orangered
+}
+.orange h1 {
+    background-color: orangered
+}
+
+
+.rose {
+    border: 1px solid magenta
+}
+.rose h1 {
+    background-color: magenta
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    border-radius: 15px;
+    
+}
+
+.button a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color:black;
+}
+
+.button1 {
+    background-color: #7AA4B4;
+    color: white;
+    border: 2px solid #7AA4B4;
+}
+
+.button1:hover {
+    background-color: white;
+    color: #7AA4B4;
+}
+
+.button2 {
+    background-color: orangered;
+    border: 2px solid orangered;
+    color:white
+}
+
+.button2:hover {
+    background-color: white;
+    color: orangered;
+}
+
+.button3 {
+    background-color: magenta; 
+    border: 2px solid magenta;
+}
+
+.button3:hover {
+    background-color: white;
+    color: magenta;
+}
+
+
+
+
+

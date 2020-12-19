@@ -1,0 +1,182 @@
+html{
+	font-family : Arial;
+	background-color: black;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0 20% 30px 20%;
+    border: 1rem solid orangered;
+    padding: 10px;
+    font-size: 50px
+}
+
+header a{
+	text-decoration: none;
+	color :orangered;
+}
+
+.nav {
+    text-align: center;
+    color: white;
+}
+
+.nav ul {
+    display: inline-block;
+
+}
+
+.nav a {
+    color: white;
+
+}
+
+ul {
+    list-style-type: none;
+    background-color: #333333;
+    padding-inline-start: 0px;
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 14px 45px;
+    text-decoration: none;
+}
+
+
+
+.genre:hover:not(.ambiance) {
+    background-color: #7AA4B4;
+}
+
+.humeur:hover:not(.ambiance){
+    background-color: orangered;
+}
+
+.ambiance{
+    background-color: magenta;
+}
+
+
+
+
+
+section{
+	text-align: center;
+	color: white;
+}
+
+
+article{
+	margin : 10px 10px 10px 10px;
+}
+
+a{
+	text-decoration : none;
+	color : white;
+}
+
+
+#ambiun h1{
+	color : #E589E5;
+	font-family : Arial;
+}
+
+#ambiun{
+	height : 200px ;
+	border : 2px solid #E589E5;
+	background-image : url('chillbart.jpg'), url('chill3.jpg');
+	background-position : left, right;
+	background-repeat : no-repeat;
+}
+
+#ambideux h1{
+	color :#E15A5A;
+	font-family : Arial;
+}
+
+#ambiun section ul li{
+	background-color : black;
+}
+
+#ambideux{
+	height : 210px;
+	border : 2px solid #E15A5A;
+	background-image : url('soiree.jpg'), url('soiree2.jpg');
+	background-position : left, right;
+	background-repeat : no-repeat;
+}
+
+#ambitrois h1{
+	color : #89E589;
+	font-family : Arial;
+}
+
+#ambitrois{
+	border : 2px solid #89E589;
+	background-image : url('cerveau.jpg'), url('travail.png');
+	background-position : left, right;
+	background-repeat : no-repeat;
+	height : 200px;
+}
+
+#ambiquatre h1{
+	color : #8989E5;
+	font-family : Arial;
+}
+
+#ambiquatre{
+	border : 2px solid #8989E5;
+	background-image : url('sport.jpg'), url('sport2.jpg');
+	background-position : left, right;
+	background-repeat : no-repeat;
+	height : 200px;
+}
+
+.bouton a{
+	text-align : center;
+	color : black;
+	border : 2px solid grey;
+	background-color : #E589E5;
+	padding: 10px;
+	text-decoration : none;
+}
+
+.bouton2 a{
+	text-align : center;
+	color : black;
+	border : 2px solid grey;
+	background-color : #E15A5A;
+	padding: 10px;
+	text-decoration : none;
+}
+
+.bouton3 a{
+	text-align : center;
+	color : black;
+	border : 2px solid grey;
+	background-color : #89E589;
+	padding: 10px;
+	text-decoration : none;
+}
+
+.bouton4 a{
+	text-align : center;
+	color : black;
+	border : 2px solid grey;
+	background-color : #8989E5;
+	padding: 10px;
+	text-decoration : none;
+}

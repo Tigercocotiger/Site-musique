@@ -1,0 +1,180 @@
+html{
+	background-image: linear-gradient(to bottom right, rgba(0,0,0,.8), rgba(0,0,0,.5) );
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: arial;
+}
+
+header h1{
+	border: 10px solid orange;
+	margin-top: 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+header a{
+	color: orange;
+	font-size: 80px;
+}
+
+td{
+	empty-cells:show;
+	text-align: center;
+}
+
+
+a{
+	font-size: 30px;
+	padding: 20px 0 20px 0;
+	text-decoration: none;
+	color: rgba(0,0,0,.8);
+}
+
+th{
+	height: 150px;
+	width: 50%;
+}
+
+#j{
+	border: 5px solid #FF8000;
+}
+
+#e{
+	border: 5px solid #FE2E2E;
+}
+
+#c{
+	border: 5px solid #31B404;
+}
+
+#t{
+	border: 5px solid #0040FF;
+}
+
+
+#j:hover{
+	color: #FF8000;
+}
+
+#e:hover{
+	color: #FE2E2E;
+}
+
+#c:hover{
+	color: #31B404;
+}
+
+#t:hover{
+	color: #0040FF;
+}
+
+table a:hover{
+	font-size: 40px;
+	padding: 20px 0 20px 0;
+	text-decoration: none;
+}
+
+table{
+	margin-top: 50px;
+}
+
+p{
+	font-size:20px;
+}
+
+#joyeux{
+	height: 150px;
+	width: 300px;
+	background-image: url('joyeux.svg');
+	background-size: 35%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#enerve{
+	height: 150px;
+	width: 300px;
+	background-image: url('enerve.svg');
+	background-size: 35%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#calme{
+	height: 150px;
+	width: 300px;
+	background-image: url('calme.svg');
+	background-size: 35%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#triste{
+	height: 150px;
+	width: 300px;
+	background-image: url('triste.svg');
+	background-size: 35%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+
+
+
+section {
+    text-align: center;
+    color: white;
+}
+
+section ul {
+    display: inline-block;
+}
+
+section a {
+    color: white;
+    margin: 20px
+}
+
+section article {
+    height: 46px
+}
+
+
+
+section ul{
+    list-style-type: none;
+    background-color: #333333;
+	padding-inline-start: 0px;
+}
+
+section li {
+    float: left;
+}
+
+section li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.genre:hover:not(.humeur){
+    background-color: #7AA4B4;
+}
+
+.humeur{
+    background-color: orangered;
+}
+
+.ambiance:hover:not(.humeur) {
+    background-color: magenta;
+}

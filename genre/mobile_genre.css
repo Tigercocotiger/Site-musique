@@ -1,0 +1,102 @@
+html {
+    background-color: black;
+    background-image: url(genre.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    background-position: center;
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+header h1 {
+    text-align: center;
+    text-transform: capitalize;
+    border: 1rem solid #7AA4B4;
+    padding: 5px;
+    margin: 0 100px
+}
+
+header a {
+    color: #7AA4B4;
+
+}
+
+section {
+    text-align: center;
+    color: white;
+}
+
+section ul {
+    display: inline-block;
+
+}
+
+section a {
+    color: white;
+    margin: 20px
+}
+
+ul {
+    list-style-type: none;
+    background-color: #333333;
+    padding-inline-start: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+
+
+    text-decoration: none;
+}
+.bleu{
+    background-color: #7AA4B4 
+}
+
+.orange a:hover:not(.bleu){
+  background-color: orangered;
+}
+
+.rose a:hover:not(.bleu){
+  background-color: magenta;
+}
+
+
+section img {
+    margin-top:10vh;
+    width: 27vh;
+}
+
+p{
+    background-color: rgba(150, 150, 150, 0.7);
+    border-radius: 12px;
+    color: white;
+    font-size: 3vh;
+    overflow: inherit;
+
+    text-align: center;
+    padding: 30px 
+}
+
+span{
+    color: crimson;
+    font-family:monospace
+}
